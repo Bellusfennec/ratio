@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-html, 
+html,
 body {
   font-size: 16px;
   font-family: Ubuntu, sans-serif;
@@ -237,7 +237,7 @@ button {
   width: calc(400px - 80px);
   height: calc(330px - 105px);
   padding: 55px 40px 50px 40px;
-  
+
 }
 .testimonials__item:nth-child(3) {
   left: 1085px;
@@ -252,10 +252,12 @@ button {
   font-weight: 900;
   font-size: 18px;
   line-height: 160%;
+  /* TODO: Использован FLEX и его свойства, когда ниже используется BLOCK */
   display: flex;
   align-items: center;
   letter-spacing: 0.005em;
   color: #212353;
+  /* TODO: Использован BLOCK а немного выше FLEX */
   display: block;
   margin-top: 20px;
 }
@@ -263,10 +265,12 @@ button {
   font-weight: 500;
   font-size: 14px;
   line-height: 160%;
+  /* TODO: Использован FLEX и его свойства, когда ниже используется BLOCK */
   display: flex;
   align-items: center;
   letter-spacing: 0.01em;
   color: #9C69E2;
+  /* TODO: Использован BLOCK а немного выше FLEX */
   display: block;
 }
 .testimonials__message {
