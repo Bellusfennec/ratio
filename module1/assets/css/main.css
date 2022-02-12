@@ -474,17 +474,31 @@ button {
     width: 100%;
   }
   .testimonials {
-    padding: 3rem;
+    padding: 2rem .9375rem;
   }
   .testimonials h2 {
     font-size: 2rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: .9375rem;
+  }
+  .testimonials__group {
+    height: auto;
   }
   .testimonials__item {
-    padding: 1.75rem;
+    padding: .9375rem;
     width: auto;
     flex-direction: column;
-    
+    height:auto;
+    position: static;
+  }
+  .testimonials__item:nth-child(2),
+  .testimonials__item:nth-child(3) {
+    display: none;
+  }
+  .testimonials__text {
+    padding: 0;
+  }
+  .testimonials__footer {
+    margin-top: .9375rem;
   }
   .footer__container {
     flex-direction: column;
