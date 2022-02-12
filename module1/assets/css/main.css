@@ -456,6 +456,10 @@ button {
   }
   .main h1 {
     font-size: 3.5rem;
+    width: auto;
+  }
+  .main p {
+    width: auto;
   }
   .main__image {
     width: 27rem;
@@ -519,11 +523,9 @@ button {
   }
   .main h1 {
     font-size: 2.8125rem;
-    width: auto;
   }
   .main p {
     margin-top: 0.9375rem;
-    width: auto;
   }
   .main__image {
     width: 100%;
